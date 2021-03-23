@@ -3,5 +3,18 @@
 @forward "bootstrap";
 @forward "style";
 
+a, p {
+  font-size: 16px;
+}
+
+a, p, .dark_gray, .d-bloc a .icon-md {
+  color: #1f1f1f;
+}
+
+.quotation{
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 700;
+}
 
 // sass css/main.scss css/main_compressed.css --no-source-map --style=compressed 
