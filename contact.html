@@ -18,75 +18,76 @@
 	<header class="container bgc-white">
 		<nav class="navbar row">
 			<div class="nav navbar-left col-sm-6 text-center navbar-text">
-				<a href="index.html"><img src="img/la-chouette-agence.png" alt="agence web à Lyon la chouette agence" height="40" /></a>
+				<a role="button" href="index.html"><img src="img/la-chouette-agence.png" alt="agence web à Lyon la chouette agence" height="40" /></a>
 			</div>
 			<div class="nav navbar-right col-sm-6 text-center navbar-text">
-				<a href="index.html">Accueil</a>
+				<a role="button" class="btn btn-lg btn-clean btn-rd btn-atomic-tangerine" href="index.html">Accueil</a>
 			</div>
 		</nav>
 	</header>
 
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
+	<main>
+		<!-- bloc-6-contact -->
+		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-6">
+			<div class="container bloc-lg">
+				<div class="col-sm-12">
+					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence - agence web Lyon" />
+					<h1 class="text-center hero-bloc-text tc-white">Parlons web design !</h1>
+					<p class="text-center mg-lg tc-white">
+						Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+						Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+					</p>
+				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
+		</section>
 
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+		<!-- bloc-7 -->
+		<section class="bloc bgc-white l-bloc" id="bloc-7">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2>Contact</h2>
+						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<div class="form-group">
+								<label>
+									Nom
+								</label>
+								<input id="name" class="form-control" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Adresse email
+								</label>
+								<input id="email" class="form-control" type="email" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Comment nous avez-vous connu ?
+								</label>
+								<input class="form-control" type="email" required id="input_504" />
+							</div>
+							<div class="form-group">
+								<label>
+									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</div> 
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+								Envoyer
+							</button>
+						</form>
 					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+
+					<div class="col-sm-6 text-center">
+						<h2>Adresse</h2>
+						<p>contact@lachouetteagence.com</p>
+						<p>2 place Sathonay 69001 Lyon</p>
+						<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
+						<img src="img/carte.png" width="350" alt="Adresse de La chouette agence"/>
 					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
-				</form>
+				</div>
 			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
+		</section>
+	</main>
 
 	<footer class="bloc bgc-atomic-tangerine d-bloc">
 		<div class="container bloc-sm">
@@ -94,11 +95,11 @@
 				<div class="col-sm-12">
 					<!-- Agence -->
 					<p class="text-center white bloc-sm">
-						La chouette agence - Agence web basée à Lyon.<br>
+						La chouette agence - Agence web basée à Lyon.
 					</p>
 					
 					<!-- Reseaux sociaux-->
-					<div class="row row-no-gutters social bloc-sm">
+					<div role="directory" class="row row-no-gutters social bloc-sm">
 						<div class="col-sm-3">
 							<div class="text-center">
 								<a class="social" href="https://twitter.com/" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
@@ -122,15 +123,15 @@
 					</div>
 
 					<!-- Partenaires -->
-					<div class="row bloc-sm">
-						<div class="col-sm-12 text-center white">
-							Partenaires
-								<ul>
-									<li><a class="white" href="voiture.com">voiture.com</a></li>
-									<li><a class="white" href="pizza.com">pizza.com</a></li>
-									<li><a class="white" href="matoiture.com">matoiture.com</a></li>
-									<li><a class="white" href="immobilierseo.com">immobilierseo.com</a></li>
-								</ul>
+					<div role="contentinfo" class="row bloc-sm">
+						<div class="col-sm-12 white">
+							<ul>
+								Partenaires
+								<li><a class="white" href="voiture.com">voiture.com</a></li>
+								<li><a class="white" href="pizza.com">pizza.com</a></li>
+								<li><a class="white" href="matoiture.com">matoiture.com</a></li>
+								<li><a class="white" href="immobilierseo.com">immobilierseo.com</a></li>
+							</ul>
 						</div>
 					</div>
 					
