@@ -4,15 +4,23 @@
 @forward "style";
 
 a, p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 a, p, .dark_gray, .d-bloc a .icon-md {
   color: #1f1f1f;
 }
 
+#lightbox-modal .modal-dialog img {
+  padding: 20px 0;
+}
+
+.row{
+  margin: 0;
+}
+
 .quotation{
-  font-size: 17px;
+  font-size: 16px;
   font-style: italic;
   font-weight: 700;
 }
